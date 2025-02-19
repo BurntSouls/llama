@@ -980,7 +980,7 @@ static int generate_response(LlamaData & llama_data, const std::string & prompt,
                              const bool stdout_a_terminal) {
     // Set response color
     if (stdout_a_terminal) {
-        printf(LOG_COL_YELLOW);
+        printf(LOG_COL_BLUE);
     }
 
     if (generate(llama_data, prompt, response)) {
